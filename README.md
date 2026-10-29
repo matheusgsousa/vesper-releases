@@ -10,6 +10,7 @@ Executáveis oficiais do **Vesper para Windows**. Este repositório guarda só a
 
 | Data | Versão |
 | --- | --- |
+| 29/10/2026 | [0.3.2](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.2) |
 | 29/10/2026 | [0.3.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.1) |
 | 29/10/2026 | [0.3.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.0) |
 | 28/10/2026 | [0.2.3](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.3) |
@@ -17,31 +18,28 @@ Executáveis oficiais do **Vesper para Windows**. Este repositório guarda só a
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.3.1 — Automação completa do túnel e conexão invisível
+## Novidades da 0.3.2 — Conexão com outro bypass instalado e Discord reaberto na rota nova
 
 Publicada em 29/10/2026.
 
-**Com assinatura ativa, o Discord passa de verdade pelo túnel WireGuard com um único clique. Todo o provisionamento do serviço e do WireSock ocorre de forma transparente em segundo plano.**
+**Clicar em Conectar agora funciona mesmo com outro bypass do Discord no computador, e o Discord reabre já pelo túnel.**
+
+### Correções
+- **Outro bypass do Discord instalado.** Se o WireSock do computador foi configurado por outro programa para desviar o Discord (como o GoLiveBypass), o Vesper assume o WireSock ao conectar. Um WireSock usado para outra coisa continua intocado.
+- **O botão não fica mais mudo.** Na 0.3.1, um erro logo depois da instalação era descartado e nada aparecia na tela. Agora a mensagem aparece.
+- **Instalação do WireSock mais segura.** O instalador é baixado para a pasta protegida do Vesper e só roda se tiver a assinatura digital válida do fabricante do WireSock. Antes, o Vesper podia executar um arquivo da pasta temporária do usuário.
 
 ### Novidades
-- **Conexão simplificada e invisível:**
-  - O app configura automaticamente o serviço Windows `VesperVpn` e o WireSock silenciosamente no primeiro clique em "Conectar o Discord".
-  - Removidas todas as telas de configuração manual e solicitações de instalação de componentes de rede.
-  - Usuários assinantes conectam diretamente ao túnel real sem nenhuma etapa de demonstração ou simulação intermediária.
-- **Split tunneling WireGuard:**
-  - Tráfego exclusivo para `Discord` e `Update` (`AllowedApps = Discord, Update`).
-  - Jogos, streams e navegadores continuam na conexão normal sem penalidade de ping.
-- **Proteções do cliente:**
-  - Não sobrescreve configurações de WireSock pertencentes a outros softwares (`WIRESOCK_IN_USE`).
-  - Desconexão segura e limpeza de túnel ao encerrar sessão ou na expiração da assinatura.
+- **O Discord reabre sozinho.** Depois de conectar, o Vesper fecha e abre o Discord de novo (ou só abre, se estiver fechado), porque o túnel só vale para conexões novas.
+- **Registro no Windows.** Quando substitui o WireSock de outro programa, o Vesper registra isso no Visualizador de Eventos (Aplicativo, origem `VesperVpn`).
 
 ### Requisitos
 - Windows 10/11 x64 com WebView2.
 - Assinatura ativa.
 
-### Download
-- `Vesper-windows-x64.exe`, com SHA-256 nas notas da release e no arquivo `.sha256`.
-- `Vesper-NOTICES.txt`.
+### Limites da prévia
+- Há um único servidor real, na Bélgica. As outras regiões são demonstrativas.
+- O outro bypass do Discord para de funcionar enquanto o Vesper estiver com o WireSock.
 
 ## Requisitos
 

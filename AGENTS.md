@@ -32,18 +32,6 @@ As releases, o `README.md` e este `AGENTS.md` são publicados pelo job `publish`
 2. **Resto: detalhes da versão mais nova.** O que mudou, tirado de `docs/releases/X.Y.Z.md`.
 3. Requisitos e avisos da prévia ficam no fim, em `releases-repo/README.template.md`.
 
-## Como atualizar o README a cada nova release
-
-1. No `vesper`, aumente a versão em `desktop/package.json` (por exemplo, `0.3.2`).
-2. Crie `docs/releases/0.3.2.md`:
-   - a primeira linha é o título: `# Vesper 0.3.2 · <resumo>`;
-   - o resto descreve o que mudou (Novidades, Correções, Requisitos, Limites).
-3. Abra o PR e faça o merge na `main`. O CI então:
-   - publica a release `v0.3.2` aqui, com essas notas;
-   - acrescenta a linha `| dd/mm/aaaa | 0.3.2 |` no topo da tabela "Versões" do README;
-   - troca a seção "Novidades da …" pelos detalhes da 0.3.2.
-4. Confira o README daqui depois do pipeline. Se algo estiver errado, corrija a fonte no `vesper` e faça um novo push; não edite aqui.
-
 ## Para mudar algo
 
 Abra um PR no `vesper`. Mudou o texto do README? Edite o template. Mudou o formato? Edite `releases-readme.mjs` e o teste dele (`releases-readme.test.mjs`). O merge na `main` sincroniza este repositório.

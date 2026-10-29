@@ -10,6 +10,7 @@ Executáveis oficiais do **Vesper para Windows**. Este repositório guarda só a
 
 | Data | Versão |
 | --- | --- |
+| 29/10/2026 | [0.3.4](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.4) |
 | 29/10/2026 | [0.3.3](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.3) |
 | 29/10/2026 | [0.3.2](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.2) |
 | 29/10/2026 | [0.3.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.1) |
@@ -19,23 +20,23 @@ Executáveis oficiais do **Vesper para Windows**. Este repositório guarda só a
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.3.3 — Correção no instalador do WireSock SDK e conexão direta à rota
+## Novidades da 0.3.4 — Região real na tela e novidades formatadas
 
 Publicada em 29/10/2026.
 
-**A instalação automática em segundo plano do WireSock agora baixa o pacote SDK correto com o wiresock-client e flags silenciosas compatíveis.**
+**Com assinatura, a tela mostra o servidor que o túnel usa de verdade: Bruxelas, na Bélgica.**
 
 ### Correções
-- **Pacote correto do WireSock.** A rotina de instalação automática do serviço de rede agora baixa o WireSock Secure Connect SDK (`product=wiresock-secure-connect-sdk`), que contém o executável `wiresock-client.exe` em `sdk\wiresock-client.exe`. A versão anterior baixava o instalador padrão sem SDK, que não incluía o `wiresock-client.exe`.
-- **Flags silenciosas compatíveis com WiX Burn.** O executável de instalação do WireSock é executado com as opções `/quiet /norestart` próprias de instaladores WiX Burn, em vez de `/S` (parâmetro NSIS que causava falha silenciosa).
-- **Atualização do serviço de rede.** A detecção automática de versão do serviço garante que o novo executável do serviço substitua qualquer versão anterior instalada em `Program Files\Vesper\VesperService.exe`.
+- **Região exibida.** Assinantes viam uma região de demonstração (por exemplo, "Miami · 118 ms") enquanto o tráfego saía pela Bélgica. Agora a saída mostra **Bruxelas · Bélgica · servidor real**.
+- **Página de regiões.** Para assinantes, ela mostra o servidor em uso e as outras cidades como *em breve*, sem latência nem ocupação de exemplo. A escolha de região chega numa próxima versão.
 
-### Requisitos
-- Windows 10/11 x64 com WebView2.
-- Assinatura ativa.
+### Novidades
+- **Novidades da versão formatadas.** O aviso de atualização e a tela Configurações mostram títulos, **negrito**, listas e `código`.
+- **Texto inteiro.** As novidades não são mais cortadas: a área rola quando o texto é longo, e o aviso inteiro rola em janelas baixas.
 
 ### Limites da prévia
-- Há um único servidor real, na Bélgica (`74.152.32.90:51820`). As outras regiões são demonstrativas.
+- Há um único servidor real, na Bélgica.
+- No modo demonstração, as regiões, latências e ocupações continuam sendo exemplos, identificados na tela.
 
 ## Requisitos
 

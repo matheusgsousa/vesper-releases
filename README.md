@@ -1,15 +1,16 @@
 # Vesper — releases
 
-Executáveis oficiais do **Vesper para Windows**. Este repositório guarda só as versões publicadas; o código-fonte é privado.
+Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discord de novo, sem mexer nos seus jogos. Este repositório guarda só as versões publicadas; o código-fonte é privado.
 
-- **Download:** [release mais recente](https://github.com/matheusgsousa/vesper-releases/releases/latest) → `Vesper-windows-x64.exe`
-- **Site:** https://vesperbypass.tech/download
-- **Integridade:** cada release traz o SHA-256 do executável (`Vesper-windows-x64.exe.sha256` e o digest exibido pelo GitHub). O app só instala atualizações cujo SHA-256 confere.
+- **Baixar:** [vesperbypass.tech/download](https://vesperbypass.tech/download)
+- **Última versão:** [`Vesper-windows-x64.exe`](https://github.com/matheusgsousa/vesper-releases/releases/latest)
+- **Suporte:** suporte@vesperbypass.tech
 
 ## Versões
 
 | Data | Versão |
 | --- | --- |
+| 30/10/2026 | [0.4.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.0) |
 | 29/10/2026 | [0.3.4](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.4) |
 | 29/10/2026 | [0.3.3](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.3) |
 | 29/10/2026 | [0.3.2](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.2) |
@@ -20,34 +21,36 @@ Executáveis oficiais do **Vesper para Windows**. Este repositório guarda só a
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.3.4 — Região real na tela e novidades formatadas
+## Novidades da 0.4.0 — Pronto para usar
 
-Publicada em 29/10/2026.
+Publicada em 30/10/2026.
 
-**Com assinatura, a tela mostra o servidor que o túnel usa de verdade: Bruxelas, na Bélgica.**
-
-### Correções
-- **Região exibida.** Assinantes viam uma região de demonstração (por exemplo, "Miami · 118 ms") enquanto o tráfego saía pela Bélgica. Agora a saída mostra **Bruxelas · Bélgica · servidor real**.
-- **Página de regiões.** Para assinantes, ela mostra o servidor em uso e as outras cidades como *em breve*, sem latência nem ocupação de exemplo. A escolha de região chega numa próxima versão.
+**Agora basta criar uma conta grátis para abrir o Vesper. Com um plano ativo, é só conectar o Discord.**
 
 ### Novidades
-- **Novidades da versão formatadas.** O aviso de atualização e a tela Configurações mostram títulos, **negrito**, listas e `código`.
-- **Texto inteiro.** As novidades não são mais cortadas: a área rola quando o texto é longo, e o aviso inteiro rola em janelas baixas.
+- **Conta grátis.** O app abre com a sua conta, sem modo de teste. Sem plano, a conexão fica bloqueada até você assinar.
+- **Conexão liberada sozinha.** Depois do pagamento, o Vesper percebe a assinatura e libera o botão Conectar o Discord, sem precisar reabrir o app.
+- **Plano Família de verdade.** Até 5 computadores na mesma conta.
+- **Sessão mais longa.** Você não precisa entrar de novo a cada abertura do app.
 
-### Limites da prévia
-- Há um único servidor real, na Bélgica.
-- No modo demonstração, as regiões, latências e ocupações continuam sendo exemplos, identificados na tela.
+### Melhorias
+- **Telas mais simples.** Textos diretos, sem termos técnicos, e uma tela de ajuda com as dúvidas mais comuns e o contato do suporte: suporte@vesperbypass.tech.
+- **Mais cuidado ao cancelar.** Cancelar a assinatura agora pede confirmação e mostra até quando vale o seu acesso.
+- **Ligar o PC sem internet.** Com a inicialização junto do Windows, o Vesper espera a internet voltar em vez de pedir sua senha.
+
+### Correções
+- **Assinatura cancelada.** Quem cancelou continua conectando até o fim do período pago.
+- **Renovação.** Uma renovação paga não derruba mais a conexão no dia do vencimento.
 
 ## Requisitos
 
-- Windows 10 22H2 ou Windows 11, 64 bits, com .NET Framework 4.8 e Microsoft Edge WebView2 Runtime (já presentes no Windows atualizado).
-- O app roda como usuário comum. Na primeira conexão real, o Windows pede permissão de administrador uma vez, para instalar o componente de rede.
+- Windows 10 ou Windows 11, 64 bits.
+- Na primeira conexão, o Windows pede sua permissão para preparar a rota do Discord.
+- Se o Windows avisar ao abrir o arquivo, clique em "Mais informações" e depois em "Executar assim mesmo".
 
-## Prévia
+## Integridade
 
-Conta, assinatura (Mercado Pago) e o túnel do Discord para assinantes são reais. Sem assinatura ou no modo demonstração, a conexão é simulada e assim identificada no app. Há um único servidor real, na Bélgica.
-
-O executável ainda não tem assinatura digital: se o SmartScreen aparecer, confira o SHA-256 e clique em "Mais informações" → "Executar assim mesmo".
+Cada release traz o SHA-256 do executável (`Vesper-windows-x64.exe.sha256` e o digest exibido pelo GitHub). O app só instala atualizações cujo SHA-256 confere.
 
 O Vesper é software proprietário e independente, sem afiliação oficial com o Discord. Avisos de terceiros: `Vesper-NOTICES.txt` em cada release.
 

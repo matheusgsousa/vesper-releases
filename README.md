@@ -10,6 +10,7 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 
 | Data | Versão |
 | --- | --- |
+| 30/10/2026 | [0.4.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.1) |
 | 30/10/2026 | [0.4.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.0) |
 | 29/10/2026 | [0.3.4](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.4) |
 | 29/10/2026 | [0.3.3](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.3.3) |
@@ -21,26 +22,15 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.4.0 — Pronto para usar
+## Novidades da 0.4.1 — Fluxo unificado de atualizações e melhorias de desempenho
 
 Publicada em 30/10/2026.
 
-**Agora basta criar uma conta grátis para abrir o Vesper. Com um plano ativo, é só conectar o Discord.**
+**Atualizações mais rápidas, leves e confiáveis diretamente pelo aplicativo.**
 
 ### Novidades
-- **Conta grátis.** O app abre com a sua conta, sem modo de teste. Sem plano, a conexão fica bloqueada até você assinar.
-- **Conexão liberada sozinha.** Depois do pagamento, o Vesper percebe a assinatura e libera o botão Conectar o Discord, sem precisar reabrir o app.
-- **Plano Família de verdade.** Até 5 computadores na mesma conta.
-- **Sessão mais longa.** Você não precisa entrar de novo a cada abertura do app.
-
-### Melhorias
-- **Telas mais simples.** Textos diretos, sem termos técnicos, e uma tela de ajuda com as dúvidas mais comuns e o contato do suporte: suporte@vesperbypass.tech.
-- **Mais cuidado ao cancelar.** Cancelar a assinatura agora pede confirmação e mostra até quando vale o seu acesso.
-- **Ligar o PC sem internet.** Com a inicialização junto do Windows, o Vesper espera a internet voltar em vez de pedir sua senha.
-
-### Correções
-- **Assinatura cancelada.** Quem cancelou continua conectando até o fim do período pago.
-- **Renovação.** Uma renovação paga não derruba mais a conexão no dia do vencimento.
+- **Atualizações otimizadas.** O aplicativo agora recebe novidades e atualizações com maior velocidade e confiabilidade através de distribuição direta.
+- **Estabilidade de conexão.** Melhorias gerais na verificação contínua de versão e na estabilidade da conexão.
 
 ## Requisitos
 

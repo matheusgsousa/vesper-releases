@@ -15,7 +15,7 @@ As releases, o `README.md` e este `AGENTS.md` são publicados pelo job `publish`
 | Arquivo aqui | Fonte no `vesper` |
 | --- | --- |
 | Release `vX.Y.Z` (executável, `.sha256`, `Vesper-NOTICES.txt`) | Build do CI na versão de `desktop/package.json` |
-| Notas da release | `docs/releases/X.Y.Z.md`, mais o commit de origem (o app não mostra essa linha) |
+| Notas da release | `docs/releases/X.Y.Z.md` (textos concisos voltados ao usuário, sem dados técnicos como commits) |
 | `README.md` | `releases-repo/README.template.md` + `desktop/scripts/releases-readme.mjs` |
 | `AGENTS.md` | `releases-repo/AGENTS.md` |
 

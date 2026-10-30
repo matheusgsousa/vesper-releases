@@ -10,6 +10,7 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 
 | Data | Versão |
 | --- | --- |
+| 30/10/2026 | [0.4.5](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.5) |
 | 30/10/2026 | [0.4.4](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.4) |
 | 30/10/2026 | [0.4.2](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.2) |
 | 30/10/2026 | [0.4.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.1) |
@@ -24,31 +25,18 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.4.4 — Em inglês e em qualquer tamanho de janela
+## Novidades da 0.4.5 — Gerenciamento de aparelhos e desconexão limpa
 
 Publicada em 30/10/2026.
 
-**O Vesper agora acompanha a sua janela e também fala inglês.**
+**Aparelhos identificados por máquina e desconexão completa do Discord.**
 
 ### Novidades
-- **Janela maximizada.** O conteúdo usa todo o espaço da tela, e o Vesper lembra como você deixou a janela.
-- **Janela pequena.** A janela encolhe bem mais, e o menu lateral vira uma barra de ícones.
-- **Inglês.** O Vesper segue o idioma do Windows, e você pode trocar em Configurações, inclusive antes de entrar na conta.
+- **Gerenciamento de aparelhos.** Cada computador tem seu identificador e pode ser gerenciado no painel.
+- **Acesso direto ao painel.** Botão para gerenciar sessões e aparelhos direto pelo app e pelo site.
 
 ### Correções
-- **Voltar da bandeja.** Reabrir o Vesper pela bandeja não desfaz mais a janela maximizada.
-
-## English
-
-**Vesper now fits your window and speaks English.**
-
-### What's new
-- **Maximized window.** Content uses the whole screen, and Vesper remembers how you left the window.
-- **Small window.** The window can shrink much further, and the side menu turns into an icon bar.
-- **English.** Vesper follows your Windows language, and you can change it in Settings, even before signing in.
-
-### Fixes
-- **Back from the tray.** Reopening Vesper from the tray no longer undoes a maximized window.
+- **Desconexão do Discord.** Ao desligar a VPN, o Discord reinicia na rota direta sem deixar conexões ativas.
 
 ## Requisitos
 

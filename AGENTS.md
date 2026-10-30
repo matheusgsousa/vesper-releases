@@ -30,7 +30,7 @@ As releases, o `README.md` e este `AGENTS.md` são publicados pelo job `publish`
 
 1. **Topo: changelog simples.** Uma tabela só com a data (dd/mm/aaaa, horário de Brasília) e o número da versão, da mais nova para a mais antiga, com link para a release.
 2. **Resto: detalhes da versão mais nova.** O que mudou, tirado de `docs/releases/X.Y.Z.md`.
-3. Requisitos e avisos da prévia ficam no fim, em `releases-repo/README.template.md`.
+3. Requisitos e avisos ficam no fim, em `releases-repo/README.template.md`.
 
 ## Como atualizar o README a cada nova release
 

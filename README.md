@@ -10,6 +10,7 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 
 | Data | Versão |
 | --- | --- |
+| 30/10/2026 | [0.4.6](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.6) |
 | 30/10/2026 | [0.4.5](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.5) |
 | 30/10/2026 | [0.4.4](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.4) |
 | 30/10/2026 | [0.4.2](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.2) |
@@ -25,18 +26,15 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.4.5 — Gerenciamento de aparelhos e desconexão limpa
+## Novidades da 0.4.6 — Desvio preciso do Discord e navegação direta preservada
 
 Publicada em 30/10/2026.
 
-**Aparelhos identificados por máquina e desconexão completa do Discord.**
-
-### Novidades
-- **Gerenciamento de aparelhos.** Cada computador tem seu identificador e pode ser gerenciado no painel.
-- **Acesso direto ao painel.** Botão para gerenciar sessões e aparelhos direto pelo app e pelo site.
+**Melhorias na compatibilidade do túnel.**
 
 ### Correções
-- **Desconexão do Discord.** Ao desligar a VPN, o Discord reinicia na rota direta sem deixar conexões ativas.
+- **Navegação normal preservada.** O Google Chrome e outros aplicativos continuam navegando na rota direta sem interrupções.
+- **Roteamento do Discord.** O split tunneling passa a identificar explicitamente os executáveis `Discord.exe` e `Update.exe`.
 
 ## Requisitos
 

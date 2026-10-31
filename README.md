@@ -10,6 +10,7 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 
 | Data | Versão |
 | --- | --- |
+| 31/10/2026 | [0.4.12](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.12) |
 | 30/10/2026 | [0.4.11](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.11) |
 | 30/10/2026 | [0.4.7](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.7) |
 | 30/10/2026 | [0.4.6](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.6) |
@@ -28,12 +29,20 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.4.11 — Melhorias e correções
+## Novidades da 0.4.12 — Portal de autenticação simplificado e cooldown inteligente
 
-Publicada em 30/10/2026.
+Publicada em 31/10/2026.
+
+**Novo fluxo de login direto, sem seleção forçada de planos.**
+
+### Novidades
+- **Login direto.** O botão "Entrar" agora abre diretamente o login da conta.
+- **Conta gratuita.** Permite criar conta sem necessidade de contratação de plano.
+- **Proteção de envio.** Cooldown inteligente e progressivo de 60s para envio de códigos.
 
 ### Melhorias
-- **Mais estabilidade.** Pequenas correções e melhorias para o Vesper funcionar melhor no dia a dia.
+- **Cabeçalho organizado.** Botões com alinhamento e proporções consistentes.
+- **Verificação limpa.** Tela de código focada apenas na validação do acesso.
 
 ## Requisitos
 

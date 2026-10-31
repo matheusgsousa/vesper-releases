@@ -10,6 +10,7 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 
 | Data | Versão |
 | --- | --- |
+| 31/10/2026 | [0.4.13](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.13) |
 | 31/10/2026 | [0.4.12](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.12) |
 | 30/10/2026 | [0.4.11](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.11) |
 | 30/10/2026 | [0.4.7](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.7) |
@@ -29,20 +30,27 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.4.12 — Portal de autenticação simplificado e cooldown inteligente
+## Novidades da 0.4.13 — Conexão automática ao iniciar o Windows
 
 Publicada em 31/10/2026.
 
-**Novo fluxo de login direto, sem seleção forçada de planos.**
+**O Vesper agora conecta sozinho e pede permissão bem menos.**
 
 ### Novidades
-- **Login direto.** O botão "Entrar" agora abre diretamente o login da conta.
-- **Conta gratuita.** Permite criar conta sem necessidade de contratação de plano.
-- **Proteção de envio.** Cooldown inteligente e progressivo de 60s para envio de códigos.
+- **Conectar ao iniciar.** Ao entrar no Windows, o Vesper conecta sozinho. Ative em Configurações.
 
-### Melhorias
-- **Cabeçalho organizado.** Botões com alinhamento e proporções consistentes.
-- **Verificação limpa.** Tela de código focada apenas na validação do acesso.
+### Correções
+- **Menos avisos do Windows.** A permissão de administrador não é mais pedida a cada atualização.
+
+## English
+
+**Vesper now connects by itself and asks for permission far less often.**
+
+### What's new
+- **Connect at startup.** Vesper connects by itself when you sign in to Windows. Turn it on in Settings.
+
+### Fixes
+- **Fewer Windows prompts.** Vesper no longer asks for administrator permission at every update.
 
 ## Requisitos
 

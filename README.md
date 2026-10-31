@@ -10,6 +10,7 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 
 | Data | Versão |
 | --- | --- |
+| 30/10/2026 | [0.4.11](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.11) |
 | 30/10/2026 | [0.4.7](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.7) |
 | 30/10/2026 | [0.4.6](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.6) |
 | 30/10/2026 | [0.4.5](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.5) |
@@ -27,15 +28,12 @@ Executáveis oficiais do **Vesper para Windows**: compartilhe sua tela no Discor
 | 28/10/2026 | [0.2.1](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.1) |
 | 27/10/2026 | [0.2.0](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.2.0) |
 
-## Novidades da 0.4.7 — Conexão aprimorada e navegação direta
+## Novidades da 0.4.11 — Melhorias e correções
 
 Publicada em 30/10/2026.
 
-**Split tunneling refinado e estabilidade de rede.**
-
-### Correções
-- **Navegação normal preservada.** O Chrome e outros aplicativos continuam navegando com a sua conexão local.
-- **Conexão mais estável.** Desativação de travas de rede e registro aprimorado de erros no serviço.
+### Melhorias
+- **Mais estabilidade.** Pequenas correções e melhorias para o Vesper funcionar melhor no dia a dia.
 
 ## Requisitos
 

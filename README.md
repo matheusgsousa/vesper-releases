@@ -4,6 +4,7 @@ Versões do Vesper para Windows.
 
 | Data | Versão |
 | --- | --- |
+| 05/11/2026 | [0.4.44](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.44) |
 | 05/11/2026 | [0.4.43](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.43) |
 | 05/11/2026 | [0.4.42](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.42) |
 | 05/11/2026 | [0.4.41](https://github.com/matheusgsousa/vesper-releases/releases/tag/v0.4.41) |
